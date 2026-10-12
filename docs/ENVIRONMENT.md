@@ -1,6 +1,7 @@
 # 具身智能开发环境 (Embodied AI Dev Environment)
 
 > 本机环境搭建完成于 2026-10-11
+> **ROS 2 Humble 已于 2026-10-12 追加安装，见 [ROS2-INSTALL.md](ROS2-INSTALL.md)**
 
 ## 硬件配置
 
