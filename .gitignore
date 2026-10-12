@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==================== ROS 2 / colcon ====================
+# colcon 工作区构建产物（build/ 已在上方 C extensions 段覆盖）
+install/
+log/
+.colcon/
+
+# colcon 生成的 Python 缓存
+**/COLCON_IGNORE
+**/.catkin_tools/
+
+# rosdep / rosinstall 本地缓存
+rosdep_cache/
+*.rosinstall
+*.repos.bak
+
+# Gazebo 仿真产物
+.gazebo/
+~/.gazebo/model_cache/
+
+# RViz 配置中的本地路径（保留 .rviz 配置文件本身）
+*.rviz.bak
+
+# rosbag 数据文件（体积大，不入库）
+*.db3
+*.mcap
+*.bag
+*.bag.active
+
